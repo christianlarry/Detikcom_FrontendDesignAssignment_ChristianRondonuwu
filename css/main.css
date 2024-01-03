@@ -1,0 +1,419 @@
+:root{
+  --font-family-primary: "Montserrat",sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,li,a{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-weight: 600;
+}
+
+body{
+  font-family: var(--font-family-primary);
+  color: black;
+}
+
+main{
+  min-height: 100vh;
+  position: relative;
+}
+
+.section-title{
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* button kuning style */
+.dh-link-btn{
+  padding: 15px 25px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: none;
+  background-color: #FFC73C;
+  box-shadow: 0 18px 40px 12px #FFD36759;
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+}
+
+.dh-link-btn a{color: #fff;}
+
+.dh-link-btn:hover{
+  background-color: #FF9A3C;
+  box-shadow: 0 18px 40px 12px #FF9A3C40;
+}
+
+
+/* detikhealth sudirmanrun nav */
+.dh-navbar-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 46px;
+}
+
+.dh-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  padding: 25px 35px;
+  background-color: #FFFFFF80;
+}
+
+.dh-nav-links{
+  display: flex;
+  align-items: center;
+  gap: 51px;
+}
+
+.dh-nav-btn{
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  background: linear-gradient(to left,#59FFB9,#326CFF);
+}
+
+.dh-nav-btn a{
+  color: #fff;
+}
+
+.dh-nav-item{
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+}
+
+/* END detikhealth sudirmanrun nav */
+
+/* detikhealth card sudirmanrun */
+
+.dh-card-large .dh-card-image{
+  aspect-ratio: 4/3;
+  width: 100%;
+}
+
+.dh-card-small-wimg .dh-card-image{
+  aspect-ratio: 1/1;
+}
+
+.dh-card-large,.dh-card-small,.dh-card-small-wimg{
+  padding: 32px;
+  background: linear-gradient(236.72deg, #59FFB9 -30.09%, #326CFF 71.21%);
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+.dh-card-title{
+  color: #fff;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.dh-card-large .dh-card-title{
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.dh-card-desc{
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.dh-card-small-wimg{
+  display: flex;
+  gap: 30px;
+}
+
+/* END detikhealth card sudirmanrun */
+
+/* HERO SECTION */
+
+#hero{
+  min-height: 100vh;
+  background-image: url('../images/bg-desktop\ 1.png');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.hero-container{
+  position: relative;
+  top: 283px;
+}
+
+.tentang-acara-btn{margin-top: 57px;}
+
+
+/* END HERO SECTION */
+
+/* ABOUT SECTION */
+
+#about{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dh-daftar-btn{
+  margin-top: 50px;
+}
+
+/* END ABOUT SECTION */
+
+/* SPONSORS SECTION */
+
+#sponsors{
+  background: linear-gradient(249.39deg, #59FFB9 -31.85%, #326CFF 101.31%);
+  width: 100%;
+  padding: 60px 0;
+}
+
+.sponsors-lists{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  overflow: auto !important;
+}
+
+.sponsors-lists > li{
+  padding: 25px 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sponsors-img{
+  width: 216px;
+}
+
+/* END SPONSORS SECTION */
+
+/* GALLERY SECTION */
+
+#gallery{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 192px 0;
+}
+
+.gallery-image-frame{
+  margin-bottom: 23px;
+  margin-top: 30px;
+}
+
+.gallery-image-frame img{
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.gallery-image-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery-image-list li{
+  cursor: pointer;
+}
+
+.gallery-image-list img{
+  aspect-ratio: 16/9;
+  width: 310px;
+}
+
+/* END GALLERY SECTION */
+
+/* BERITA SECTION */
+
+#berita{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 192px 0;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 5;
+}
+
+.berita-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondary-navbar{
+  margin-top: 54px;
+  margin-bottom: 50px;
+  display: flex;
+  background: linear-gradient(239.49deg, #59FFB9 -37.86%, #326CFF 92.79%);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.secondary-navbar *{
+  color: #fff;
+}
+
+.secondary-nav-link{
+  cursor: pointer;
+}
+
+.secondary-nav-link span{
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600;
+  width: 100px;
+  text-align: center;
+}
+
+.artikel-card{
+  display: flex;
+  flex-direction: column;
+  width: 376px;
+}
+
+.artikel-card img{
+  aspect-ratio: 4/3;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+.artikel-card h2{
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.artikel-card span{
+  font-size: 12px;
+  font-weight: 500;
+  color: #6C6C6C;
+}
+
+.artikel-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+}
+
+/* END BERITA SECTION */
+
+footer{
+  margin-top: -1465px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-bg img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer-main{
+  background-color: #28A997;
+  padding-bottom: 50px;
+}
+
+.footer-info{
+  margin-top: 30px;
+  display: flex;
+}
+
+.footer-info > span{
+  font-weight: 400;
+  color: #fff;
+  display: block;
+}
+
+footer .social-links{
+  display: flex;
+  gap: 8px;
+}
+
+.footer-social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  margin-left: 100px;
+}
+
+.footer-social > span{
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer-cpr{
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+  margin-top: 30px;
+  color: #fff;
+}
