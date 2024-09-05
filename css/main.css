@@ -86,6 +86,7 @@ main{
   -o-border-radius: 100px;
   padding: 25px 35px;
   background-color: #FFFFFF80;
+  backdrop-filter: blur(20px);
 }
 
 .dh-nav-links{
@@ -103,7 +104,18 @@ main{
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  background: linear-gradient(to left,#59FFB9,#326CFF);
+  background: linear-gradient(to left,#59FFB9,#326CFF, #59FFB9);
+  background-size: 200%;
+  background-position: right;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.dh-nav-btn:hover{
+  background-position: left;
 }
 
 .dh-nav-btn a{
